@@ -1,0 +1,23 @@
+# Secrets — never commit these
+k8s/.env
+.env
+*.env.local
+
+# Build outputs
+target/
+*/target/
+node_modules/
+dist/
+build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
